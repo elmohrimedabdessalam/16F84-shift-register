@@ -1,3 +1,2 @@
 # 16F84-shift-register
-In order to make an embedded solution, sometimes we need many GPIO pins to control LEDs or Seven-segments and also we need sometimes an actuators. 
-among the tips is using a shift register, takes 8-bit serial data to show it out as parallel data, to do that, I proposed an algorithm based on the timer interrupt that allows getting an optimized code.
+  In order to create an embedded solution, some applications require many LEDs, seven segments, actuators, and sensors. in this case, required a microcontroller with many GPIOs. another way is to use a shift register, I proposed an algorithm based on the timer interrupt that allows getting an optimized code. I apply this algorithm in PIC 16F84, I use XC8 as compiler. In this repo contain MPLAB project, and Proteus simulation file.
